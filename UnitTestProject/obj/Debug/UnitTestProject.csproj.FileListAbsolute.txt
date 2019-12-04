@@ -1,0 +1,11 @@
+C:\Users\Yosifov\source\repos\Udemy\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Yosifov\source\repos\Udemy\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Yosifov\source\repos\Udemy\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Yosifov\source\repos\Udemy\UnitTestProject\bin\Debug\UnitTestProject.dll
+C:\Users\Yosifov\source\repos\Udemy\UnitTestProject\bin\Debug\UnitTestProject.pdb
+C:\Users\Yosifov\source\repos\Udemy\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Yosifov\source\repos\Udemy\UnitTestProject\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Yosifov\source\repos\Udemy\UnitTestProject\obj\Debug\UnitTestProject.csprojAssemblyReference.cache
+C:\Users\Yosifov\source\repos\Udemy\UnitTestProject\obj\Debug\UnitTestProject.csproj.CopyComplete
+C:\Users\Yosifov\source\repos\Udemy\UnitTestProject\obj\Debug\UnitTestProject.dll
+C:\Users\Yosifov\source\repos\Udemy\UnitTestProject\obj\Debug\UnitTestProject.pdb

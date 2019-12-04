@@ -1,0 +1,8 @@
+C:\Users\Yosifov\source\repos\Udemy\ClassLibrary\bin\Debug\netcoreapp3.0\ClassLibrary.deps.json
+C:\Users\Yosifov\source\repos\Udemy\ClassLibrary\bin\Debug\netcoreapp3.0\ClassLibrary.dll
+C:\Users\Yosifov\source\repos\Udemy\ClassLibrary\bin\Debug\netcoreapp3.0\ClassLibrary.pdb
+C:\Users\Yosifov\source\repos\Udemy\ClassLibrary\obj\Debug\netcoreapp3.0\ClassLibrary.csprojAssemblyReference.cache
+C:\Users\Yosifov\source\repos\Udemy\ClassLibrary\obj\Debug\netcoreapp3.0\ClassLibrary.AssemblyInfoInputs.cache
+C:\Users\Yosifov\source\repos\Udemy\ClassLibrary\obj\Debug\netcoreapp3.0\ClassLibrary.AssemblyInfo.cs
+C:\Users\Yosifov\source\repos\Udemy\ClassLibrary\obj\Debug\netcoreapp3.0\ClassLibrary.dll
+C:\Users\Yosifov\source\repos\Udemy\ClassLibrary\obj\Debug\netcoreapp3.0\ClassLibrary.pdb

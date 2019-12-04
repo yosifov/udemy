@@ -1,0 +1,11 @@
+C:\Users\Yosifov\source\repos\Udemy\SectionQuiz\bin\Debug\netcoreapp3.0\SectionQuiz.exe
+C:\Users\Yosifov\source\repos\Udemy\SectionQuiz\bin\Debug\netcoreapp3.0\SectionQuiz.deps.json
+C:\Users\Yosifov\source\repos\Udemy\SectionQuiz\bin\Debug\netcoreapp3.0\SectionQuiz.runtimeconfig.json
+C:\Users\Yosifov\source\repos\Udemy\SectionQuiz\bin\Debug\netcoreapp3.0\SectionQuiz.runtimeconfig.dev.json
+C:\Users\Yosifov\source\repos\Udemy\SectionQuiz\bin\Debug\netcoreapp3.0\SectionQuiz.dll
+C:\Users\Yosifov\source\repos\Udemy\SectionQuiz\bin\Debug\netcoreapp3.0\SectionQuiz.pdb
+C:\Users\Yosifov\source\repos\Udemy\SectionQuiz\obj\Debug\netcoreapp3.0\SectionQuiz.csprojAssemblyReference.cache
+C:\Users\Yosifov\source\repos\Udemy\SectionQuiz\obj\Debug\netcoreapp3.0\SectionQuiz.AssemblyInfoInputs.cache
+C:\Users\Yosifov\source\repos\Udemy\SectionQuiz\obj\Debug\netcoreapp3.0\SectionQuiz.AssemblyInfo.cs
+C:\Users\Yosifov\source\repos\Udemy\SectionQuiz\obj\Debug\netcoreapp3.0\SectionQuiz.dll
+C:\Users\Yosifov\source\repos\Udemy\SectionQuiz\obj\Debug\netcoreapp3.0\SectionQuiz.pdb

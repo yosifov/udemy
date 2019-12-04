@@ -1,0 +1,11 @@
+C:\Users\Yosifov\source\repos\Udemy\BaseApp\bin\Debug\netcoreapp3.0\BaseApp.exe
+C:\Users\Yosifov\source\repos\Udemy\BaseApp\bin\Debug\netcoreapp3.0\BaseApp.deps.json
+C:\Users\Yosifov\source\repos\Udemy\BaseApp\bin\Debug\netcoreapp3.0\BaseApp.runtimeconfig.json
+C:\Users\Yosifov\source\repos\Udemy\BaseApp\bin\Debug\netcoreapp3.0\BaseApp.runtimeconfig.dev.json
+C:\Users\Yosifov\source\repos\Udemy\BaseApp\bin\Debug\netcoreapp3.0\BaseApp.dll
+C:\Users\Yosifov\source\repos\Udemy\BaseApp\bin\Debug\netcoreapp3.0\BaseApp.pdb
+C:\Users\Yosifov\source\repos\Udemy\BaseApp\obj\Debug\netcoreapp3.0\BaseApp.csprojAssemblyReference.cache
+C:\Users\Yosifov\source\repos\Udemy\BaseApp\obj\Debug\netcoreapp3.0\BaseApp.AssemblyInfoInputs.cache
+C:\Users\Yosifov\source\repos\Udemy\BaseApp\obj\Debug\netcoreapp3.0\BaseApp.AssemblyInfo.cs
+C:\Users\Yosifov\source\repos\Udemy\BaseApp\obj\Debug\netcoreapp3.0\BaseApp.dll
+C:\Users\Yosifov\source\repos\Udemy\BaseApp\obj\Debug\netcoreapp3.0\BaseApp.pdb
