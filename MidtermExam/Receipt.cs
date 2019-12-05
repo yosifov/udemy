@@ -1,7 +1,6 @@
 ﻿namespace MidtermExam
 {
     using System;
-    using System.Collections.Generic;
     using System.Text;
 
     public class Receipt
@@ -17,7 +16,8 @@
         private decimal unitPrice;
         private int quantityPurchased;
 
-        public Receipt(int receiptNumber, 
+        public Receipt(
+            int receiptNumber, 
             string dateOfPurchase, 
             int customerNumber, 
             string customerName, 
@@ -120,7 +120,7 @@
             private set
             {
                 ValidateNotNull(value, nameof(this.ItemDescription));
-                this.ItemDescription = value;
+                this.itemDescription = value;
             }
         }
 

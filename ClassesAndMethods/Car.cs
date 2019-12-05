@@ -1,14 +1,11 @@
 ﻿namespace ClassesAndMethods
 {
     using System;
-    using System.Collections.Generic;
-    using System.Text;
 
     public class Car
     {
         private string color;
         int numberOfDoors;
-        bool IsCorvertable;
 
         public Car(string color, int numberOfDoors, bool convertable)
         {
