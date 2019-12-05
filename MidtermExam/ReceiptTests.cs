@@ -3,6 +3,7 @@ namespace MidtermExam
     using NUnit.Framework;
     using System;
 
+    [Category("Receipt")]
     public class ReceiptTests
     {
         [SetUp]
@@ -11,9 +12,59 @@ namespace MidtermExam
         }
 
         [Test]
-        public void Test1()
+        public void ReceiptNumberPositiveTest()
         {
-            Assert.Pass();
+            try
+            {
+                var receipt = new Receipt(5, "10.12.2019", 2919, "Kamen Yosifov", "Varna, Bulgaria", "0888112233", 13, "Smart Watch", 98.50M, 1);
+                Assert.Pass();
+            }
+            catch (ArgumentException ex)
+            {
+                Assert.Fail(ex.Message);
+            }
+        }
+
+        [Test]
+        public void ReceiptNumberNegativeTest()
+        {
+            try
+            {
+                var receipt = new Receipt(-10, "10.12.2019", 2919, "Kamen Yosifov", "Varna, Bulgaria", "0888112233", 13, "Smart Watch", 98.50M, 1);
+                Assert.Fail("Receipt number should throw exception");
+            }
+            catch (ArgumentException ex)
+            {
+                Assert.Pass(ex.Message);
+            }
+        }
+
+        [Test]
+        public void CustomerNumberPositiveTest()
+        {
+            try
+            {
+                var receipt = new Receipt(5, "10.12.2019", 2919, "Kamen Yosifov", "Varna, Bulgaria", "0888112233", 13, "Smart Watch", 98.50M, 1);
+                Assert.Pass();
+            }
+            catch (ArgumentException ex)
+            {
+                Assert.Fail(ex.Message);
+            }
+        }
+
+        [Test]
+        public void CustomerNumberNegativeTest()
+        {
+            try
+            {
+                var receipt = new Receipt(5, "10.12.2019", 0, "Kamen Yosifov", "Varna, Bulgaria", "0888112233", 13, "Smart Watch", 98.50M, 1);
+                Assert.Fail($"Customer number validation didn't pass! Customer number: {receipt.CustomerNumber}");
+            }
+            catch (ArgumentException ex)
+            {
+                Assert.Pass(ex.Message);
+            }
         }
     }
 }
