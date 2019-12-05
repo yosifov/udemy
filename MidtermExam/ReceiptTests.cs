@@ -31,7 +31,7 @@ namespace MidtermExam
             try
             {
                 var receipt = new Receipt(-10, "10.12.2019", 2919, "Kamen Yosifov", "Varna, Bulgaria", "0888112233", 13, "Smart Watch", 98.50M, 1);
-                Assert.Fail("Receipt number should throw exception");
+                Assert.Fail($"Receipt number validation didn't pass! Receipt number stored: {receipt.Number}");
             }
             catch (ArgumentException ex)
             {
@@ -59,7 +59,7 @@ namespace MidtermExam
             try
             {
                 var receipt = new Receipt(5, "10.12.2019", 0, "Kamen Yosifov", "Varna, Bulgaria", "0888112233", 13, "Smart Watch", 98.50M, 1);
-                Assert.Fail($"Customer number validation didn't pass! Customer number: {receipt.CustomerNumber}");
+                Assert.Fail($"Customer number validation didn't pass! Customer number stored: {receipt.CustomerNumber}");
             }
             catch (ArgumentException ex)
             {
