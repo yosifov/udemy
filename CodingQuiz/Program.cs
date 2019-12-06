@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace CodingQuiz
+﻿namespace CodingQuiz
 {
+    using System;
+
     class Program
     {
         static void Main(string[] args)

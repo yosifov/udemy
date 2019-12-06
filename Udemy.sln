@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MidtermExam", "MidtermExam\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 8", "Section 8", "{558C9AA5-5F75-4221-BEA2-72C044204BA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingQuiz", "CodingQuiz\CodingQuiz.csproj", "{AE31FBA4-A05E-4364-917D-6C543FC47C69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingQuiz", "CodingQuiz\CodingQuiz.csproj", "{AE31FBA4-A05E-4364-917D-6C543FC47C69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EndOfSectionEightExam", "EndOfSectionEightExam\EndOfSectionEightExam.csproj", "{456CC2D0-1570-46D2-95B2-715E16DA61E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,6 +109,10 @@ Global
 		{AE31FBA4-A05E-4364-917D-6C543FC47C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE31FBA4-A05E-4364-917D-6C543FC47C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE31FBA4-A05E-4364-917D-6C543FC47C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{456CC2D0-1570-46D2-95B2-715E16DA61E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{456CC2D0-1570-46D2-95B2-715E16DA61E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{456CC2D0-1570-46D2-95B2-715E16DA61E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{456CC2D0-1570-46D2-95B2-715E16DA61E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,6 +131,7 @@ Global
 		{85886AD0-7FDE-4FBF-A69D-6D74DFD43F9D} = {C668CCF3-49B9-4460-9C89-9A4D5C51D298}
 		{05D9BE56-DB51-4F3C-AB34-B95CD124A89A} = {21039672-D499-41E1-9233-71C85F2D4131}
 		{AE31FBA4-A05E-4364-917D-6C543FC47C69} = {558C9AA5-5F75-4221-BEA2-72C044204BA5}
+		{456CC2D0-1570-46D2-95B2-715E16DA61E0} = {558C9AA5-5F75-4221-BEA2-72C044204BA5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37484422-5860-4CFF-8C2F-69EC334EC03D}
