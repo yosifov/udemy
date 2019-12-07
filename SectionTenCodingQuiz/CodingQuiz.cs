@@ -4,7 +4,7 @@
     using System.Linq;
     using System.Text;
 
-    public class FirstCodingQuiz
+    public class CodingQuiz
     {
         public static void Execute()
         {
@@ -16,7 +16,7 @@
 
             while (input != "end")
             {
-                if (!input.All(char.IsDigit))
+                if (!input.All(char.IsDigit) || string.IsNullOrEmpty(input))
                 {
                     numbersOutsideOfBoundary++;
                     Console.Write("Invalid input! Enter a number between 0 and 10 (type end to quit): ");

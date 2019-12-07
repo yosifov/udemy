@@ -4,7 +4,7 @@
     {
         static void Main()
         {
-            FirstCodingQuiz.Execute();
+            CodingQuiz.Execute();
         }
     }
 }
