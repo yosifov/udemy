@@ -53,7 +53,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EndOfSectionEightExam", "En
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 9", "Section 9", "{051800B5-E040-4859-9AD9-24D2E733FB19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SectionNineCodingQuiz", "SectionNineCodingQuiz\SectionNineCodingQuiz.csproj", "{CFF024C9-9D03-42EB-AA7D-880E9365F29C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SectionNineCodingQuiz", "SectionNineCodingQuiz\SectionNineCodingQuiz.csproj", "{CFF024C9-9D03-42EB-AA7D-880E9365F29C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndOfSectionNineExam", "EndOfSectionNineExam\EndOfSectionNineExam.csproj", "{47B4E0C8-37D4-4BB4-9A87-69C2B927D849}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +123,10 @@ Global
 		{CFF024C9-9D03-42EB-AA7D-880E9365F29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFF024C9-9D03-42EB-AA7D-880E9365F29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFF024C9-9D03-42EB-AA7D-880E9365F29C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B4E0C8-37D4-4BB4-9A87-69C2B927D849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B4E0C8-37D4-4BB4-9A87-69C2B927D849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B4E0C8-37D4-4BB4-9A87-69C2B927D849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B4E0C8-37D4-4BB4-9A87-69C2B927D849}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -141,6 +147,7 @@ Global
 		{AE31FBA4-A05E-4364-917D-6C543FC47C69} = {558C9AA5-5F75-4221-BEA2-72C044204BA5}
 		{456CC2D0-1570-46D2-95B2-715E16DA61E0} = {558C9AA5-5F75-4221-BEA2-72C044204BA5}
 		{CFF024C9-9D03-42EB-AA7D-880E9365F29C} = {051800B5-E040-4859-9AD9-24D2E733FB19}
+		{47B4E0C8-37D4-4BB4-9A87-69C2B927D849} = {051800B5-E040-4859-9AD9-24D2E733FB19}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37484422-5860-4CFF-8C2F-69EC334EC03D}
