@@ -63,6 +63,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SectionTenCodingQuiz", "Sec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndOfSectionTenExam", "EndOfSectionTenExam\EndOfSectionTenExam.csproj", "{96BE3D3D-ACF6-4B62-A334-96D6E39ABD96}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 11", "Section 11", "{51FFCF10-2558-4785-A764-B7ECDDA0B538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SectionElevenCodingQuiz", "SectionElevenCodingQuiz\SectionElevenCodingQuiz.csproj", "{78C55957-27B7-4891-8E70-0AFB446F5CC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +145,10 @@ Global
 		{96BE3D3D-ACF6-4B62-A334-96D6E39ABD96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96BE3D3D-ACF6-4B62-A334-96D6E39ABD96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96BE3D3D-ACF6-4B62-A334-96D6E39ABD96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C55957-27B7-4891-8E70-0AFB446F5CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C55957-27B7-4891-8E70-0AFB446F5CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C55957-27B7-4891-8E70-0AFB446F5CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C55957-27B7-4891-8E70-0AFB446F5CC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -164,6 +172,7 @@ Global
 		{47B4E0C8-37D4-4BB4-9A87-69C2B927D849} = {051800B5-E040-4859-9AD9-24D2E733FB19}
 		{7E1FCB45-48F9-4E61-B355-27424766DC6C} = {F98A8A4D-DB26-4978-8686-F433121BBABF}
 		{96BE3D3D-ACF6-4B62-A334-96D6E39ABD96} = {F98A8A4D-DB26-4978-8686-F433121BBABF}
+		{78C55957-27B7-4891-8E70-0AFB446F5CC3} = {51FFCF10-2558-4785-A764-B7ECDDA0B538}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37484422-5860-4CFF-8C2F-69EC334EC03D}
