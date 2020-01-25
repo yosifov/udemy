@@ -71,11 +71,11 @@ namespace LocatingWebElements
         [Test]
         public void LocateElementByXPath()
         {
-            this.element = this.driver.FindElement(By.XPath("//*[@id=\"simpleElementsLink\"]"));
+            this.element = this.driver.FindElements(By.XPath("//*[@id='button1'][contains(text(), 'Xpath Button 1')]"))[1];
 
             this.element.Click();
 
-            Assert.AreEqual("Link success - Ultimate QA", this.driver.Title);
+            Assert.AreEqual("Button success - Ultimate QA", this.driver.Title);
         }
 
         [TearDown]
