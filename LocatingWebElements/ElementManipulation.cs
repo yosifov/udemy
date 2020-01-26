@@ -1,6 +1,7 @@
 ﻿namespace LocatingWebElements
 {
     using System;
+    using System.Data;
     using System.IO;
     using System.Reflection;
 
@@ -37,15 +38,11 @@
             textarea.Clear();
             textarea.SendKeys("My message");
 
-            var captchaData = this.driver
-                .FindElement(By.XPath("//span[@class='et_pb_contact_captcha_question']"))
-                .Text
-                .Split();
-
-            int captchaResult = this.GetCaptchaResult(captchaData);
-
+            var captchaQuestion = this.driver.FindElement(By.ClassName("et_pb_contact_captcha_question"));
+            var table = new DataTable();
+            int captchaResult = (int)table.Compute(captchaQuestion.Text, "");
             var captchaInput = this.driver.FindElement(By.XPath("//input[@class='input et_pb_contact_captcha']"));
-
+            captchaInput.Clear();
             captchaInput.SendKeys(captchaResult.ToString());
 
             var submit = this.driver.FindElement(By.XPath(@"//div[contains(@class, 'et_pb_column_1_2 et_pb_column_1')]//button[@name='et_builder_submit_button']"));
@@ -80,20 +77,6 @@
         private void ScrollToElement(IWebElement element)
         {
             ((IJavaScriptExecutor)this.driver).ExecuteScript(@"arguments[0].scrollIntoView(true);", element);
-        }
-
-        private int GetCaptchaResult(params string[] captchaData)
-        {
-            int firstNumber = int.Parse(captchaData[0]);
-            int secondNumber = int.Parse(captchaData[2]);
-            string @operator = captchaData[1];
-
-            return @operator switch
-            {
-                "+" => firstNumber + secondNumber,
-                "-" => firstNumber - secondNumber,
-                _ => throw new ArgumentException("Invalid operator"),
-            };
         }
     }
 }
