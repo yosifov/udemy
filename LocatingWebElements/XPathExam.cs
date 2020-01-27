@@ -9,6 +9,7 @@
     using OpenQA.Selenium;
     using OpenQA.Selenium.Chrome;
     using OpenQA.Selenium.Support.UI;
+    using ExpectedConditions = SeleniumExtras.WaitHelpers.ExpectedConditions;
 
     [TestFixture]
     [Category("XPath Exam")]
@@ -73,8 +74,7 @@
         {
             this.element = this.driver.FindElement(By.XPath("//li[@class='et_pb_tab_1']//a"));
             this.element.Click();
-            IWebElement tabActiveArea = this.driver.FindElement(By.XPath("//*[contains(@class, 'et_pb_tab et_pb_tab_1')]"));
-            this.wait.Until(drv => drv.FindElement(By.XPath("//*[contains(@class, 'et_pb_tab et_pb_tab_1')]")).Displayed);
+            IWebElement tabActiveArea = this.wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//*[contains(@class, 'et_pb_tab et_pb_tab_1')]")));
 
             Assert.That(tabActiveArea.Displayed);
         }
