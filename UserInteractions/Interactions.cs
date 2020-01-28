@@ -3,7 +3,6 @@ namespace UserInteractions
     using System;
     using System.IO;
     using System.Reflection;
-    using System.Threading;
 
     using NUnit.Framework;
 
