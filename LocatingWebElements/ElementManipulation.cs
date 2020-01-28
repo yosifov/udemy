@@ -66,17 +66,5 @@
 
             return new ChromeDriver(pathToDriver);
         }
-
-        private void HighlightElement(IWebElement element)
-        {
-            var js = (IJavaScriptExecutor)this.driver;
-            string highlightJavascript = @"arguments[0].style.cssText = ""border-width: 2px; border-style: dashed; border-color: red;"";";
-            js.ExecuteScript(highlightJavascript, new object[] { element });
-        }
-
-        private void ScrollToElement(IWebElement element)
-        {
-            ((IJavaScriptExecutor)this.driver).ExecuteScript(@"arguments[0].scrollIntoView(true);", element);
-        }
     }
 }
