@@ -97,6 +97,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 19", "Section 19", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocatingWebElements", "LocatingWebElements\LocatingWebElements.csproj", "{68A68621-030A-4617-9DCD-3447285DB0E4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section 23", "Section 23", "{89D1D112-A1CE-4060-9198-A1BD13E00C54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInteractions", "UserInteractions\UserInteractions.csproj", "{CE9792D3-584E-49D7-9693-518B2FC89A53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -215,6 +219,10 @@ Global
 		{68A68621-030A-4617-9DCD-3447285DB0E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68A68621-030A-4617-9DCD-3447285DB0E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68A68621-030A-4617-9DCD-3447285DB0E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE9792D3-584E-49D7-9693-518B2FC89A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE9792D3-584E-49D7-9693-518B2FC89A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE9792D3-584E-49D7-9693-518B2FC89A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE9792D3-584E-49D7-9693-518B2FC89A53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -248,6 +256,7 @@ Global
 		{E1F28EF0-0A6A-459A-A7BE-D08E53692525} = {240696B0-6D1B-4B94-94B2-A312874131D6}
 		{8C8A92DA-2522-40F4-AA00-4BED1229A371} = {2C6224DB-07EE-44F7-92F4-ABEDDF8156AC}
 		{68A68621-030A-4617-9DCD-3447285DB0E4} = {6395F75F-7362-40A9-B536-83CA6D7E8072}
+		{CE9792D3-584E-49D7-9693-518B2FC89A53} = {89D1D112-A1CE-4060-9198-A1BD13E00C54}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37484422-5860-4CFF-8C2F-69EC334EC03D}
