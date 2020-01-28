@@ -16,7 +16,6 @@
     public class ProperSynchronizationQuiz
     {
         private IWebDriver driver;
-        private IWebElement element;
         private WebDriverWait wait;
 
         [SetUp]
