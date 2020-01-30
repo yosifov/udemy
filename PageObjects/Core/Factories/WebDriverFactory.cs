@@ -15,7 +15,7 @@
             switch (browser)
             {
                 case Browser.Chrome:
-                    return new ChromeDriver(Directory.GetCurrentDirectory());
+                    return new ChromeDriver(Directory.GetCurrentDirectory() + @"\Core\Drivers");
                 default:
                     throw new ArgumentException("Invalid browser");
             }

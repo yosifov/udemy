@@ -1,4 +1,4 @@
-﻿namespace PageObjects
+﻿namespace PageObjects.Tests
 {
     using NUnit.Framework;
 
@@ -31,6 +31,20 @@
             var articlePage = searchPage.OpenFirstResult();
 
             Assert.AreEqual(expectedTitle, articlePage.Title);
+        }
+
+        [Test]
+        [TestCase("https://ultimateqa.com/complicated-page", "Complicated Page - Ultimate QA")]
+        public void ComplicatedPageTest(string pageUrl, string pageTitle)
+        {
+            var complicatedPage = new ArticlePage(this.driver)
+            {
+                Url = pageUrl
+            };
+
+            complicatedPage.Open();
+
+            Assert.AreEqual(pageTitle, complicatedPage.Title);
         }
 
         [TearDown]

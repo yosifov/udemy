@@ -1,4 +1,4 @@
-﻿namespace PageObjects
+﻿namespace PageObjects.Tests
 {
     using System;
     using System.Collections.Generic;
